@@ -12,7 +12,7 @@
     <header class="bg-dracula-darker-900 rounded-s-3xl min-w-full">
       <div class="navbar bg-base-100">
         <div class="flex-none">
-          <button class="btn btn-square btn-ghost">
+          <button id="sidebarCollapse" class="btn btn-square btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -40,10 +40,10 @@
     </header>
     <div class="flex flex-row h-full">
       <div
-        class="w-[15%] flex flex-col px-5 bg-dracula-darker-900 min-h-screen"
+        class="w-[15%] flex flex-col px-5 bg-dracula-darker-900 min-h-screen active"
       >
         <ul>
-          <li>
+          <li class="">
             <div class="">
               <a href="/">
                 <i class="fa-solid fa-house pr-3"></i>
@@ -75,11 +75,12 @@
           </li>
         </ul>
       </div>
-      <div class="">
-        <div class="flex justify-end">
+
+      <div class="w-full">
+        <div class="flex !justify-end">
           <div class="btn mx-5 mt-3">
             <button class="text-dracula-green">
-              <span class="hover:text-dracula-purple-300">Create Post</span>
+              <span class="hover:text-dracula-pink-100">Create Post</span>
             </button>
           </div>
         </div>
@@ -90,4 +91,5 @@
     src="https://kit.fontawesome.com/0cdff0fe48.js"
     crossorigin="anonymous"
   ></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </html>

@@ -3,8 +3,8 @@
 @tailwind utilities;
 @tailwind variants;
 
-.fa-gear:hover {
-    /* The animation */
+/* .fa-gear:hover {
+    //The animation
     animation-name: spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
@@ -19,4 +19,4 @@
     to {
         transform: rotate(360deg);
     }
-}
+} */
